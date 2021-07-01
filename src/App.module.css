@@ -6,6 +6,10 @@
     min-height: 100vh;
 }
 
+.Calculator {
+    position: relative;
+}
+
 .OperationContainer {
     display: flex;
     flex-direction: row;

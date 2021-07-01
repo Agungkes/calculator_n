@@ -70,9 +70,7 @@ function App() {
     <div className={styles.Container}>
       {inputErrorMessage && <div>{inputErrorMessage}</div>}
 
-      <div style={{
-        position: 'relative'
-      }}>
+      <div className={styles.Calculator}>
         <Input onChange={updateInputState({key: 'input1'})} />
         <Input onChange={updateInputState({key: 'input2'})} />
         <Input onChange={updateInputState({key: 'input3'})} />
