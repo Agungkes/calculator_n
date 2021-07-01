@@ -1,0 +1,16 @@
+.Container {
+    display: inline-flex;
+    background-color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Container:not(:last-child) {
+    margin-right: 5px
+}
+
+.OperatorValue {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+}

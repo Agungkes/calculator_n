@@ -1,0 +1,14 @@
+.InputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Input {
+    height: 25px;
+}
+
+.InputCheckbox {
+    margin-left: 10px;
+}

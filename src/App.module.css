@@ -1,0 +1,28 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.OperationContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.ResultContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.ResultContainer::before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    content: "";
+    bottom: 30px;
+    border-top: 2px solid black;
+}
